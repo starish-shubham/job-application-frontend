@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <h1>Job Application</h1>
+            <div class="firstE">
+                <div class="entery">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div class="entery">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+            </div>
+            <div class="secondE">
+                <div class="entery">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="entery">
+                    <label for="jrole">Job Role</label>
+                    <!-- <input type="text" name="jrole" id="jrole"> -->
+                    <select name="jrole" id="jrole" placeholder="Job Role">
+                        <option value="Web Designer">Web Designer</option>
+                        <option value="UI/UX Designer">UI/UX Designer</option>
+                        <option value="SDE">SDE</option>
+                    </select>
+                </div>
+            </div>
+            <div class="thirdE">
+                <label for="addr">Address</label>
+                <input type="textarea" name="addr" id="addr" rows="">
+            </div>
+            <div class="fourthE">
+                <div class="entery">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div class="entery">
+                    <label for="pincode">Pin Code</label>
+                    <input type="text" name="pincode" id="pincode">
+                </div>
+            </div>
+            <div class="fifthE">
+                <div class="entery">
+                    <label for="jdate">Start Date</label>
+                    <input type="text" name="jdate" id="jdate">
+                </div>
+                <div class="entery">
+                    <label for="cv">Upload your CV</label>
+                    <input type="text" name="cv" id="cv">
+                </div>
+                
+            </div>
+            <button><a href="#" class="submit">Apply Now</a></button>
+        </form>
+    </div>
+</body>
+
+</html>
